@@ -1,0 +1,45 @@
+.underBar {
+    width: 0;
+    height: 5px;
+    background: var(--backgroundWhite);
+    top: 10px;
+    position: relative;
+    transition: .5s ease;
+}
+
+.navItem {
+    transition: .5s ease;
+    &:hover{
+        color: var(--yellow200);
+    }
+    &:nth-of-type(1):hover ~ .underBar{
+        left: 0px;
+        width: 78px;
+        background: var(--yellow200);
+    }
+    &:nth-of-type(2):hover ~ .underBar{
+        left: 82px;
+        width: 97px;
+        background: var(--yellow200);
+    }
+    &:nth-of-type(3):hover ~ .underBar{
+        left: 183px;
+        width: 79px;
+        background: var(--yellow200);
+    }
+    &:nth-of-type(4):hover ~ .underBar{
+        left: 266px;
+        width: 58px;
+        background: var(--yellow200);
+    }
+    &:nth-of-type(5):hover ~ .underBar{
+        left: 328px;
+        width: 79px;
+        background: var(--yellow200);
+    }
+    &:nth-of-type(6):hover ~ .underBar{
+        left: 411px;
+        width: 78px;
+        background: var(--yellow200);
+    }
+}

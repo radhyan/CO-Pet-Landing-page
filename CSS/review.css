@@ -1,0 +1,29 @@
+.reviewContainer{
+    padding-bottom: 80px;
+    margin: 1em 135px;
+}
+.reviewTitle{
+    margin-top: 80px;
+}
+.reviews {
+    margin-top: 3em;
+    gap: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewItem {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    gap: 1em;
+}
+
+.review{
+    text-align: center;
+}
+.userPhoto {
+    max-width: 40px;
+}

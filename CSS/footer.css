@@ -1,0 +1,81 @@
+footer {
+    padding: 1em 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--green400);
+    color: var(--textWhite);
+}
+
+.footerText {
+    color: var(--textWhite);
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+.productList {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+li.productItem {
+    margin-top: 1em;
+    color: var(--textWhite);
+}
+.companyList {
+    display: flex;
+    flex-direction: column;
+}
+li.companyItem {
+    margin-top: 1em;
+    color: var(--textWhite);
+}
+.additional {
+    margin-top: 2em;
+    color: var(--textWhite);
+}
+.vl {
+    border-left: 2px solid var(--backgroundWhite);
+    height: 220px;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input h3 {
+    margin-bottom: 1em;
+}
+
+.formHead {
+    margin-bottom: 1em;
+}
+
+.message {
+    color: var(--textWhite);
+    margin-bottom: .5em;
+}
+
+.emailInput, .messageInput {
+    font-family: 'Poppins', sans-serif;
+    padding: 1em;
+    margin-bottom: .5em;
+    border: 1px solid var(--textWhite);
+    border-radius: 1em;
+    color: var(--textBlack);
+}
+
+.submit {
+    font-family: 'Poppins', sans-serif;
+    color: var(--textWhite);
+    background-color: var(--green200);
+    padding: .5em;
+    border: 1px solid var(--green300);
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+

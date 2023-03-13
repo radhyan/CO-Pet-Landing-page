@@ -1,0 +1,40 @@
+.videoContainer {
+    /* height: 980px; */
+    background: var(--backgroundWhite);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.articleVideo {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 1em 135px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 80px;
+    width: 1200px;
+}
+
+.center {
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+.videoBody {
+    margin: 1em 0em;
+}
+
+.featuredVideo {
+    margin-top: 1em;
+    max-width: 926px;
+    max-height: 520px;
+    border-radius: 10px;
+}
+
+.credits {
+    margin-top: 1em;
+}

@@ -1,0 +1,64 @@
+.hero {
+    height: 733px;
+    padding: 1em 135px;;
+}
+.absolute{
+    position: absolute;
+}
+
+.catHero {
+    left: 135px;
+    top: 201px;
+}
+
+.circleBig {
+    height: 490px;
+    width: 490px;
+    top: 202px;
+    left: -186px;
+    background-color: var(--pink100);
+    border-radius: 50%;
+    filter: blur(25px);
+}
+.circleSmall {
+    height: 298px;
+    width: 298px;
+    left: 177px;
+    top: 162px;
+    background-color: var(--blue100);
+    border-radius: 50%;
+    filter: blur(25px);
+}
+
+.articleHero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+    left: 535px;
+    top: 230px;
+}
+
+.heroBody {
+    max-width: 570px;
+    text-align: justify;
+}
+
+.heroButton {
+    margin-top: 1em;
+    font-weight: 500;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-color: var(--blue200);
+    color: var(--textWhite);
+    transition: .5s;
+}
+
+.heroButton:hover {
+    box-shadow: inset -2px -2px 8px rgba(194, 235, 241, 0.5), inset 2px 4px 7px rgba(55, 107, 115, 0.6);
+}
+
+.heroButton:active {
+    background-color: var(--blue100);
+    box-shadow: inset -2px -2px 8px rgba(194, 235, 241, 0.5), inset 2px 4px 7px rgba(55, 107, 115, 0.6);
+}

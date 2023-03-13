@@ -1,0 +1,61 @@
+/* NAV */
+nav {
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    overflow: hidden;
+    padding: 1em 135px;
+    background: var(--backgroundWhite);
+    height: 5em;
+    box-shadow: 0px 2px 15px rgba(41, 43, 46, 0.5);
+}
+
+.typographyColorful {
+    height: 3em;
+}
+
+.navItems {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    align-items: center;
+    gap: 0;
+}
+
+.navItems li {
+    display: inline;
+}
+
+ul {
+    flex-direction: row;
+}
+
+.navItem {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 1em;
+    border: 0px;
+    margin: 0px;
+}
+
+.signUp {
+    font-family: 'Quicksand', sans-serif;
+    background: var(--pink200);
+    border-radius: 10px;
+    padding: 12px 18px;
+    transition: .5s;
+    color: var(--textWhite);
+    font-weight: 700;
+}
+
+.signUp:hover {
+    box-shadow: inset -2px -2px 8px rgba(255, 215, 225, 0.4), inset 2px 4px 5px rgba(132, 75, 85, 0.7);
+}
+
+.signUp:active {
+    background-color: var(--pink300);
+    box-shadow: inset -2px -2px 8px rgba(255, 215, 225, 0.4), inset 2px 4px 5px rgba(132, 75, 85, 0.7);
+}
+

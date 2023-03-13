@@ -1,0 +1,122 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+/* ROOTS */
+:root {
+    /* COLORS */
+        /* PINK */
+    --pink100: #FFD7E1;
+    --pink200: #E8AFB9;
+    --pink300: #CA919B;
+    --pink400: #AC737D;
+    --pink500: #844B55;
+        /* BLUE */
+    --blue100: #C2EBF1;
+    --blue200: #9BCFD7;
+    --blue300: #87BBC3;
+    --blue400: #5F939B;
+    --blue500: #376B73;
+        /* GREEN */
+    --green100: #D3E6BB;
+    --green200: #ABBE93;
+    --green300: #8DA075;
+    --green400: #6F8257;
+    --green500: #475A2F;
+        /* YELLOW */
+    --yellow100: #F3D86A;
+    --yellow200: #E9B940;
+    --yellow300: #CB9B22;
+    --yellow400: #AD7D04;
+    --yellow500: #855500;
+        /* WHITES */
+    --textWhite: #FEFEFE;
+    --backgroundWhite: #F2F2F2;
+    --textBlack: #292B2E;
+    --backrgoundBlack: #15171A;
+    /* FONTS */
+        /* DISPLAY */
+    --largeDisplay: 3em;
+    --mediumDisplay: 2em;
+    --smallDisplay: 1.5em;
+        /* BODY */
+    --largeBody: 2.25em;
+    --mediumBody: 1.15em;
+    --smallBody: 1em;
+    --xSmallBody: .75em;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li, button{
+    color: inherit;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: var(--textBlack);
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--largeDisplay);
+    color: var(--textBlack);
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--mediumDisplay);
+    color: var(--textBlack);
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--smallDisplay);
+    color: var(--textBlack);
+}
+
+.text-large {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--largeBody);
+    color: var(--textBlack);
+}
+
+.text-medium {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--mediumBody);
+    color: var(--textBlack);
+}
+
+.text-small {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--smallBody);
+    color: var(--textBlack);
+}
+
+.text-xSmall {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--xSmallBody);
+    color: var(--textBlack);
+}
+
