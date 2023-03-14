@@ -1,15 +1,15 @@
 footer {
-    padding: 1em 10%;
+    padding: 4em 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--green400);
-    color: var(--textWhite);
+    background-color: var(--backgroundWhite);
+    color: var(--textBlack);
 }
 
 .footerText {
-    color: var(--textWhite);
+    color: var(--textBlack);
     font-weight: 500;
     font-size: 1.25em;
 }
@@ -21,7 +21,8 @@ footer {
 }
 li.productItem {
     margin-top: 1em;
-    color: var(--textWhite);
+    color: var(--textBlack);
+    transition: .5s ease;
 }
 .companyList {
     display: flex;
@@ -29,14 +30,20 @@ li.productItem {
 }
 li.companyItem {
     margin-top: 1em;
-    color: var(--textWhite);
+    color: var(--textBlack );
+    transition: .5s ease;
 }
+
+.companyItem:hover,.productItem:hover {
+    color: var(--pink100);
+}
+
 .additional {
     margin-top: 2em;
-    color: var(--textWhite);
+    color: var(--textBlack);
 }
 .vl {
-    border-left: 2px solid var(--backgroundWhite);
+    border-left: 2px solid var(--backgroundBlack);
     height: 220px;
 }
 
@@ -55,7 +62,7 @@ li.companyItem {
 }
 
 .message {
-    color: var(--textWhite);
+    color: var(--textBlack);
     margin-bottom: .5em;
 }
 
